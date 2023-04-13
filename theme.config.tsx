@@ -1,5 +1,6 @@
 import React from 'react'
 import { Logo } from './components/Logo'
+import { Button } from './components/Button'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
@@ -15,7 +16,7 @@ const config: DocsThemeConfig = {
     text: 'SimpleDB',
   },
   navbar: {
-    extraContent: <span>SimpleDB</span>
+    extraContent: <Button/>
   }
 }
 
