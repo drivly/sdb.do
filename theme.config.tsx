@@ -13,6 +13,9 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'SimpleDB',
   },
+  navbar: {
+    extraContent: <span>SimpleDB</span>
+  }
 }
 
 export default config
