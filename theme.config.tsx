@@ -1,8 +1,9 @@
 import React from 'react'
+import { Logo } from './components/Logo'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>SimpleDB</span>,
+  logo: <Logo/>,
   project: {
     link: 'https://github.com/drivly/sdb.do',
   },
